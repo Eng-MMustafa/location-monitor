@@ -1,0 +1,26 @@
+{
+  "name": "location-monitor-simulation",
+  "version": "1.0.0",
+  "description": "Advanced simulation example for location-monitor library",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node-dev --respawn index.ts"
+  },
+  "keywords": [
+    "location-tracking",
+    "simulation",
+    "geofencing"
+  ],
+  "author": "Mohammed Mustafa (Senior Backend Engineer)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "location-monitor": "file:../.."
+  }
+}
