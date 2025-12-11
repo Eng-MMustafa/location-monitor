@@ -43,6 +43,7 @@
 ### Why location-monitor?
 
 - ✅ **Production-ready**: Battle-tested enterprise-grade code
+- ✅ **Package Manager Support**: Works with npm, yarn, pnpm - your choice!
 - ✅ **Flexible**: Multiple storage adapters (Redis, Kafka, RabbitMQ, In-memory) + Optional WebSocket
 - ✅ **Extensible**: Create custom adapters (MQTT, AWS SNS/SQS, Azure Service Bus, etc.)
 - ✅ **Real-time**: Sub-second event broadcasting and status detection
@@ -161,22 +162,43 @@ Subscribe to real-time events:
 }
 ```
 
----
-
 ## 📦 Installation
+
+### Using npm
 
 ```bash
 npm install location-monitor
 ```
 
+### Using yarn
+
+```bash
+yarn add location-monitor
+```
+
+### Using pnpm
+
+```bash
+pnpm add location-monitor
+```
+
 ### Peer Dependencies
 
 For NestJS integration:
+
+**npm:**
 ```bash
 npm install @nestjs/common @nestjs/core reflect-metadata rxjs
 ```
 
+**yarn:**
+```bash
+yarn add @nestjs/common @nestjs/core reflect-metadata rxjs
+```
+
 For specific adapters:
+
+**npm:**
 ```bash
 # Redis
 npm install redis
@@ -189,6 +211,21 @@ npm install amqplib
 
 # WebSocket
 npm install ws
+```
+
+**yarn:**
+```bash
+# Redis
+yarn add redis
+
+# Kafka
+yarn add kafkajs
+
+# RabbitMQ
+yarn add amqplib
+
+# WebSocket
+yarn add ws
 ```
 
 ---

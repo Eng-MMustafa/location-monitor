@@ -1,0 +1,38 @@
+# Source files
+src/
+tests/
+examples/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Build config
+tsconfig.json
+jest.config.js
+
+# Development files
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Documentation (keep README.md and LICENSE)
+docs/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment
+.env
+.env.*

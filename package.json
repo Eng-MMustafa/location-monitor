@@ -6,6 +6,11 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "location",
     "tracking",
@@ -24,7 +29,10 @@
     "websocket",
     "redis",
     "kafka",
-    "rabbitmq"
+    "rabbitmq",
+    "npm",
+    "yarn",
+    "pnpm"
   ],
   "scripts": {
     "build": "tsc",
